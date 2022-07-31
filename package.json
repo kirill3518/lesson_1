@@ -1,0 +1,19 @@
+{
+  "name": "lesson_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:dev": "tsc -p tsconfig-dev.json",
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^18.6.3",
+    "typescript": "^4.7.4"
+  }
+}
